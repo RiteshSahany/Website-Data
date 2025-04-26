@@ -1,0 +1,55 @@
+{
+  "device": {
+    "name": "POCO M2 Pro / Redmi Note 9S / Redmi Note 9 Pro / Redmi Note 9 Pro Max / Redmi Note 10 Lite",
+    "codename": "miatoll",
+    "build": {
+      "date": "2025-04-20",
+      "security_patch": "April 2025",
+      "status": "Active"
+    }
+  },
+  "release": {
+    "version": "2.5",
+    "date": "2025-04-20",
+    "android_version": "Android 13",
+    "type": "Stable",
+    "size": "2.4 GB",
+    "download_url": "https://sourceforge.net/projects/the-clover-project/files/miatoll/Vault/"
+  },
+  "maintainer": {
+    "name": "Ritesh Sahany",
+    "notes": [
+      "Clean flash is recommended if coming from another ROM",
+      "GApps are included in the build",
+      "Report bugs with proper logs",
+      "Don't ask ETA for updates"
+    ]
+  },
+  "warning": "Flashing custom ROMs may void your warranty. Make sure to backup your data before proceeding.",
+  "changelog": {
+    "version": "2.5",
+    "date": "April 20, 2025",
+    "items": [
+      "Spatial Audio: Enable virtualization effect (Make ordinary sound more immersive)",
+      "Spatial Audio: Enable binaural & transaural feature",
+      "Spatial Audio: optimize spatializer effect delay",
+      "Switch to Lenovo Dolby tuner, for the full Equalizer control"
+    ]
+  },
+  "installation": {
+    "prerequisites": [
+      "Unlocked bootloader",
+      "Latest firmware installed",
+      "Custom recovery (TWRP recommended)",
+      "Backup of your important data"
+    ],
+    "steps": [
+      "Download the ROM zip file",
+      "Boot into recovery mode",
+      "Take a backup of your current ROM (optional but recommended)",
+      "Wipe System, Data, Dalvik, Cache",
+      "Flash the ROM zip",
+      "Reboot to system"
+    ]
+  }
+}

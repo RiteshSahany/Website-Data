@@ -1,0 +1,59 @@
+{
+    "device": {
+      "name": "Poco F1",
+      "codename": "beryllium",
+      "build": {
+        "date": "2025-04-17",
+        "security_patch": "April 2025",
+        "status": "Active"
+      }
+    },
+    "release": {
+      "version": "2.5",
+      "date": "2025-04-17",
+      "android_version": "Android 15",
+      "type": "Stable",
+      "size": "2.4 GB",
+      "download_url": "https://sourceforge.net/projects/the-clover-project/files/beryllium/Vault/"
+    },
+    "maintainer": {
+      "name": "Perses",
+      "notes": [
+        "Clean flash is recommended if coming from another ROM",
+        "GApps are included in the build",
+        "Report bugs with proper logs",
+        "Don't ask ETA for updates"
+      ]
+    },
+    "warning": "Flashing custom ROMs may void your warranty. Make sure to backup your data before proceeding.",
+    "changelog": {
+      "version": "2.5",
+      "date": "April 17, 2025",
+      "items": [
+        "Removed NXP,NFC & eSE sepolicy rules",
+        "Rewrite access to BT and WiFi MAC address files",
+        "Switched to AOSP WFD",
+        "Cleanup unused props",
+        "Added more props to improve smoothness,responsiveness and ram management",
+        "Addressed kernel & xiaomiparts sepolicy denials",
+        "Switched back to AIDL Xiaomi light(Fixes rapid blink of notification led)",
+        "Migrated thermal profiles to system settings"
+      ]
+    },
+    "installation": {
+      "prerequisites": [
+        "Unlocked bootloader",
+        "Latest firmware installed",
+        "Custom recovery (TWRP recommended)",
+        "Backup of your important data"
+      ],
+      "steps": [
+        "Download the ROM zip file",
+        "Boot into recovery mode",
+        "Take a backup of your current ROM (optional but recommended)",
+        "Wipe System, Data, Dalvik, Cache",
+        "Flash the ROM zip",
+        "Reboot to system"
+      ]
+    }
+  }
